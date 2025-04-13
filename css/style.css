@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: fixed;
+    top: 0; 
+}
+header #foto-inicio{
+    width: 40%;
+    justify-content: center;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width:30%;
+    list-style-type:none;
+}
+header nav li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    #texto{
+        filter:blur(0px)
+    }
+
+}
+#bem-vindo{
+    z-index: 1;
+}
